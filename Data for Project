@@ -1,0 +1,29 @@
+Introduction/Business problem
+------------------------------------
+
+
+San Francisco crime statistics report an overall upward trend in crime based on data from 17 years with violent crime increasing
+and property crime increasing. Based on this trend, the crime rate in San Francisco for 2019 is expected to be higher than in 2016. 
+This is as per report published at https://www.cityrating.com/crime-statistics/california/san-francisco.html.
+
+The city violent crime rate for San Francisco in 2016 was higher than the national violent crime rate average by 78.95% 
+and the city property crime rate in San Francisco was higher than the national property crime rate average by 122.03%.
+
+In 2016 the city violent crime rate in San Francisco was higher than the violent crime rate in California by 59.55% 
+and the city property crime rate in San Francisco was higher than the property crime rate in California by 113.13%.
+
+
+San Francisco has several police districts with varied types of crime in each district. This Project will attempt to address
+the trend in the top neighborhoods on crime categories so that the San Francisco police department can focus on the neighborhoods
+that have the highest crime and focus on the top crime categories by creating task forces to address the crime.
+
+
+DATA
+-------
+We are going to be using the public data available at :
+https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783 
+for the crime data of 2018 and also use Foursquare API to explore neighborhoods in San Francisco. 
+We will use the explore function to get the most common crime categories in each neighborhood, and then use this feature
+to group the neighborhoods into clusters. We will use the k-means clustering algorithm to complete this task. 
+Finally, we will use the Folium library to visualize the neighborhoods in San Francisco and their clusters.
+
